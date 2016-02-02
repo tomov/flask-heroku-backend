@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from flask import Flask
+from constants import DatabaseConstants
+from models import db
 
 # start Flask app
 #
