@@ -1,8 +1,12 @@
+This is a simple skeleton of a Flask / SQLAlchemy / Heroku app.
+
+You can see a list of "users" on the main page and add new users by calling `http://.../add_user?name=bla&email=wtf`
+
+### To run locally:
+
 clone repo
 
     cd flask-heroku-backend
-
-### To run locally:
 
     sudo pip install virtualenv
     virtualenv venv 
